@@ -1,13 +1,13 @@
 {
   "name": "whatsapp-link-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "WhatsApp Group Link Collector",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0"
+  }
 }
